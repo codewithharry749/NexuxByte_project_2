@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+/* ================== LOgo ========================== */
+
+.logo {
+  width: 7rem;
+  object-fit: cover;
+  border-radius: .7rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* ================= Profile User =================== */
+
+.img_logo {
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.signup {
+  width: 70%;
+  margin:1rem auto;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: .7rem;
+  padding: 1rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+
+  margin-top: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border-radius: .7rem;
+  padding: 1rem;
+}
+
+/* = home =========== */
+
+.home {
+  background-color: orange;
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: green;
+}
+
+/*  ======================= Login page ================ */
+
+.login {
+  width: 70%;
+  margin:1rem auto;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  margin-top: 10vh;
+  border-radius: .7rem;
+  padding: 1rem;
+}
+
+.login_rigth {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+
+
 }
 
-.App-link {
-  color: #61dafb;
+/* =================== Signup Page ==================== */
+
+.signup_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: blueviolet;
+  border-radius: .7rem;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.signup_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.login_signup:hover {
+  color: blue;
+  background-color: green;
 }
